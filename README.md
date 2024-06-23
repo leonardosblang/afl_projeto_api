@@ -81,7 +81,7 @@ python figma_requests.py
 5. Dashboard e Métricas
     ![Dashboard](images/figma_5.png)
 
-### Teste de Endpoint /company
+### Teste de Endpoint /companies
 
 Há um script adicional chamado `company_endpoint_test.py` que testa se uma empresa pode ter n contratos e também a exclusão de uma empresa e verifica se os contratos relacionados são também excluídos(está na mesma pasta que o anterior) (rode dentro da venv).
 Para rodar:

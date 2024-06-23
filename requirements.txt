@@ -30,6 +30,7 @@ mdurl==0.1.2
 orjson==3.10.5
 passlib==1.7.4
 pip==21.3.1
+psycopg2==2.9.9
 psycopg2-binary==2.9.9
 pyasn1==0.6.0
 pydantic==2.7.4

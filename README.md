@@ -83,7 +83,7 @@ python figma_requests.py
 
 ### Teste de Endpoint /companies
 
-Há um script adicional chamado `company_endpoint_test.py` que testa se uma empresa pode ter n contratos e também a exclusão de uma empresa e verifica se os contratos relacionados são também excluídos(está na mesma pasta que o anterior) (rode dentro da venv).
+Há um script adicional chamado `company_endpoint_test.py` que testa se uma empresa pode ter n contratos e também a exclusão de uma empresa e verifica se os contratos relacionados são também excluídos(está na mesma pasta que o anterior) (rode dentro da venv). Basta entrar com o ID de uma empresa existente para adicionar contratos extras a ela e, depois, entrar com 's' caso queira excluí-la, removendo os contratos associados a ela junto.
 Para rodar:
 ```sh
 python company_endpoint_test.py

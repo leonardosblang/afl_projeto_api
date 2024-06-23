@@ -91,7 +91,7 @@ python company_endpoint_test.py
 
 ### Testes Unitários
 
-Os testes unitários para validar cada funcionalidade da aplicação estão localizados na pasta `tests` (rode dentro da venv). Para rodar os testes:
+Os testes unitários para validar cada funcionalidade da aplicação estão localizados na pasta `tests` (rode dentro da venv). Para rodar todos os testes dentro da pasta:
 ```sh
 cd tests
 python -m unittest discover

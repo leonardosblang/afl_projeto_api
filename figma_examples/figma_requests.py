@@ -1,6 +1,5 @@
 import random
 from datetime import date
-
 import requests
 from faker import Faker
 
@@ -77,9 +76,9 @@ else:
     except requests.exceptions.JSONDecodeError:
         print("Erro ao decodificar resposta JSON ao cadastrar empresa:", response.text)
 
-# Fazer upload do logo para a empresa
+# Fazer upload do logo para a empresa no S3
 if company_id:
-    file_path = "logo1.png"  # Substituir pelo caminho real da imagem de teste
+    file_path = "logo1.png"  
     with open(file_path, "rb") as f:
         files = {'file': f}
         response = requests.post(f"{BASE_URL}/companies/{company_id}/upload-logo", files=files, headers=headers)

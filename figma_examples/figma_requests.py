@@ -76,7 +76,7 @@ else:
     except requests.exceptions.JSONDecodeError:
         print("Erro ao decodificar resposta JSON ao cadastrar empresa:", response.text)
 
-# Fazer upload do logo para a empresa no S3
+# Fazer upload do logo da empresa no S3
 if company_id:
     file_path = "logo1.png"  
     with open(file_path, "rb") as f:

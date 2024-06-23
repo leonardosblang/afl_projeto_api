@@ -19,7 +19,7 @@ Este projeto é uma API desenvolvida em FastAPI que gerencia empresas, contratos
     python -m venv venv
     ```
 
-3. Ative o ambiente virtual(é necessário rodar todos os scripts dentro da venv):
+3. Ative o ambiente virtual (é necessário rodar todos os scripts dentro da venv):
 
     - No Windows:
         ```sh

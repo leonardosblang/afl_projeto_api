@@ -2,11 +2,11 @@
 
 ### O que é o projeto
 
-Este projeto é uma API desenvolvida em FastAPI que gerencia empresas, contratos, departamentos e serviços. As informações são armazenadas em um banco de dados PostgreSQL e as logos das empresas são armazenadas em um bucket da AWS S3.
+Este projeto é uma API desenvolvida utilizando FastAPI que gerencia empresas, contratos, departamentos e serviços. As informações são armazenadas em um banco de dados PostgreSQL e as logos das empresas são armazenadas em um bucket da AWS S3.
 
 ### Instalação
 
-### Passo a passo para instalação
+### Passo a passo para a instalação do projeto
 
 1. Clone este repositório:
     ```sh

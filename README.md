@@ -63,7 +63,7 @@ As imagens das logos das empresas são salvas em um bucket S3 da AWS e os links 
 
 ### Exemplos com Figma
 
-Há um script que valida o backend pra cada imagem do Figma(rode dentro da venv). Para rodar:
+Há um script que valida o backend pra cada imagem do Figma (rode dentro da venv). Para rodar:
 ```sh
 cd figma_examples
 python figma_requests.py
@@ -83,7 +83,7 @@ python figma_requests.py
 
 ### Teste de Endpoint /empresa
 
-Há um script adicional chamado `company_endpoint_test.py` que testa se uma empresa pode ter n contratos e também a exclusão de uma empresa e verifica se os contratos relacionados são também excluídos(está na mesma pasta que o anterior)(rode dentro da venv).
+Há um script adicional chamado `company_endpoint_test.py` que testa se uma empresa pode ter n contratos e também a exclusão de uma empresa e verifica se os contratos relacionados são também excluídos(está na mesma pasta que o anterior) (rode dentro da venv).
 Para rodar:
 ```sh
 python company_endpoint_test.py
@@ -91,7 +91,7 @@ python company_endpoint_test.py
 
 ### Testes Unitários
 
-Os testes unitários para validar cada funcionalidade da aplicação estão localizados na pasta `tests`(rode dentro da venv). Para rodar os testes:
+Os testes unitários para validar cada funcionalidade da aplicação estão localizados na pasta `tests` (rode dentro da venv). Para rodar os testes:
 ```sh
 cd tests
 python -m unittest discover
